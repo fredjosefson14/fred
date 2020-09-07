@@ -199,7 +199,7 @@ var submitButton = document.getElementById('submit'); //
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
   
-    if(numCorrect<=3)
+    if(numCorrect>=3)
 
     alert("Bra jobbat, du är en Fredrikexpert")
 
